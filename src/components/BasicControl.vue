@@ -1,7 +1,7 @@
 <script setup>
 const sendCommand = async (direction) => {
     try {
-        const response = await fetch('http://192.168.0.11', {
+        const response = await fetch('http://urltestclase', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
